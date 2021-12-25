@@ -1,21 +1,21 @@
-//normal console statement
-console.log("Hello world");
+'use strict';
 
-//lambda
-let hello = () => console.log("Hello world");
+console.log("Hello world");	//normal console statement
+
+let hello = () => console.log("Hello world");	//lambda function	
 hello();
 console.log(hello);
 
-//function expression
-let hellof = function (){
+let hellof = function (){	//function expression
 	console.log("Hello world");
 }
 console.log(hellof);
 hellof();
 
-//normal function
-function fhello(){
+function fhello(){	//normal function
 	console.log("Hello world");
 }
 fhello();
 
+console.log(hello.toString());
+console.log(hellof.toString());
