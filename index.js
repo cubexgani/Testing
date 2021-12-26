@@ -19,3 +19,33 @@ fhello();
 
 console.log(hello.toString());
 console.log(hellof.toString());
+
+console.log("\n\n");	//new lines for no reason
+
+//just experimenting with datatypes and stuff
+let laugh = "haha";
+console.log('u are idot '+laugh);
+
+let fact = `1 + 2 is ${1 + 2}`;		//backtick strings are cool no cap
+console.log(fact);
+
+let life = 42;
+let deez = 69420694206942069420694206942069420694206942069420n;		//dont ask
+console.log(typeof life);
+console.log(typeof deez);
+console.log(typeof console)
+console.log(typeof hello);
+console.log(typeof Infinity);
+console.log(typeof fact);
+
+console.log("\n");
+
+let nothin = null;
+console.log(1/0);
+console.log("nothin which is equal to " + nothin + " is " + typeof nothin);
+
+let age;
+console.log(age);
+
+let t_or_f = life >= deez;
+console.log(t_or_f);
