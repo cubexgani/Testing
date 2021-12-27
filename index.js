@@ -49,3 +49,23 @@ console.log(age);
 
 let t_or_f = life >= deez;
 console.log(t_or_f);
+
+//primitive type conversion
+console.log("12"/"3");
+console.log(typeof String(life));
+console.log("\n")
+
+let joe = "69420candice";		//no troll intended
+console.log(Number(joe));
+console.log(Number(true) + " + "+ Number(false) + " = " + (Number(true) + Number(false)));
+console.log(Number(null));
+console.log(Number(undefined));
+console.log("\n");
+
+console.log(Boolean("1"));
+console.log(Boolean("0"))
+console.log(Boolean(" "));
+console.log(Boolean(NaN));
+console.log(Boolean(""));
+console.log(Boolean("dorime"));
+console.log(Boolean(life));	//Boolean() spam moment
