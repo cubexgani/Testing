@@ -69,3 +69,23 @@ console.log(Boolean(NaN));
 console.log(Boolean(""));
 console.log(Boolean("dorime"));
 console.log(Boolean(life));	//Boolean() spam moment
+
+console.log("\n");
+
+//basic math operators
+console.log(-life);
+
+console.log(9**2);
+console.log(69696**(1/2));
+console.log(1 + 2 + 3 + '4' + 5 + '6' / '2' * 3);		//i need braincells
+console.log(+joe);
+console.log(-(age = "46"));
+console.log(age + " is a " + typeof age + " but kool magic and now it is a " + typeof +age);
+
+let a, b, c, d, e;
+console.log(age + ((a = 4) + (b = c = '8')) - life);		//i need braincells part 2
+console.log(a + " " + b + ' ' + c);
+console.log(+true);
+d = (+true + false, 2 + '18' / 3 - 4);
+console.log(d);
+console.log(e = a*=2);
