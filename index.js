@@ -89,3 +89,20 @@ console.log(+true);
 d = (+true + false, 2 + '18' / 3 - 4);
 console.log(d);
 console.log(e = a*=2);
+
+console.log("\n")
+//comparison
+console.log(null == "\n0\n");
+console.log("0" === false);
+console.log("candeez" > "joe");
+console.log("0" == 0);
+console.log(`${undefined == null}  ${undefined === null}`);
+console.log(`${0 <= null}  ${0 >= null}  ${0 == null}  ${0 === null}  ${0 >= undefined}  ${0 <= undefined}  ${0 == undefined}  ${0 === undefined}`);
+console.log(`${0 < null}  ${0 > null}  ${0 < undefined} ${0 > undefined}`);
+
+console.log("\n");
+console.log(true && false);
+console.log(undefined && 5 || "" && 0 || null && NaN || 1);	//omw to make it bigger and lose more braincells
+console.log(("ZAMN" || "") && 1 || 0);
+console.log(!5 || !!"pog");
+
