@@ -105,4 +105,6 @@ console.log(true && false);
 console.log(undefined && 5 || "" && 0 || null && NaN || 1);	//omw to make it bigger and lose more braincells
 console.log(("ZAMN" || "") && 1 || 0);
 console.log(!5 || !!"pog");
-
+let k;
+console.log(k ?? a);
+console.log(0 || (undefined ?? ""));
