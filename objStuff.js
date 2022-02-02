@@ -34,3 +34,25 @@ console.log("idk" in someone);
 for(key in someone){
 	console.log(key + "\t" + someone[key]);
 }
+
+let peter = joe;	//peter peter pumpkin yeeter
+peter.name = "Peter Parker";	//insert uncanny meme
+console.log(joe.name);
+//Ok joe is now peter parker
+
+let bob = Object.assign({}, joe);
+bob.name = "bob";
+bob.age = 15;	//joe's senpai
+console.log(bob);
+
+let bottle = {
+	name: "Sprite"
+};	//average reusable sprite bottle
+Object.assign(bottle, {
+	name: "Pepsi",	//when da sprite bottle become pepsi
+	colour: "transparent",
+	size: 12	//12 inches bottle
+});
+console.log(bottle);
+let jeff = Object.assign({}, {name: "Jeff"}, {age: 14}, {school: "dababy sus amogus school"});
+console.log(jeff);
