@@ -56,3 +56,31 @@ Object.assign(bottle, {
 console.log(bottle);
 let jeff = Object.assign({}, {name: "Jeff"}, {age: 14}, {school: "dababy sus amogus school"});
 console.log(jeff);
+
+joe.sleep = function(){
+	return "I sleep and turn myself to DND";
+}
+
+joe.growUp = function(){
+	let growing = (growth) => this.age += growth;
+	growing(2);	//ok joe is 2 years older now, bet he got some frie- oh wait.
+}
+
+joe.acquireFriends = function(){	//that's a mouthful
+	this['number of friends'] += 1;		//Now he got a friend. Omw to spam acquireFriends() to give him more friends. I'm so kind.
+}
+joe.getMe = function(){
+	return this;
+}
+joe.acquireFriends();
+joe.acquireFriends();
+joe.acquireFriends();
+joe.acquireFriends();
+joe.acquireFriends();	//random act of kindness
+
+console.log(joe['number of friends']);
+console.log(joe.sleep());
+joe.growUp();
+console.log(joe.age);
+console.log(joe);
+console.log(joe.getMe());
