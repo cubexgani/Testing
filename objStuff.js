@@ -84,3 +84,26 @@ joe.growUp();
 console.log(joe.age);
 console.log(joe);
 console.log(joe.getMe());
+
+function AvgPerson(name, age){
+	this.name = name;
+	this.age = age;
+	this.grow = function(){
+		this.age += 1;
+	}
+}
+
+let personX = new AvgPerson("Person 1", 400);
+let personY = new AvgPerson("Person 2", 15);
+console.log(personX);
+console.log(personY);
+
+function AvgAnimal(name){
+	this.name = name;
+	return {name: "Dog"};		//What da dog doin
+}
+let animal = new AvgAnimal("lion");
+console.log(animal);
+
+console.log(personX?.name?.firstname);
+console.log(personX?.name);
