@@ -107,3 +107,19 @@ console.log(animal);
 
 console.log(personX?.name?.firstname);
 console.log(personX?.name);
+
+let bowlingPin = {
+	hardness: 3,
+	bigness: 9,	//when bad english is
+	heavyness: 20,
+	valueOf(){
+		return this.heavyness * this.hardness + this.bigness;	//L
+	},
+	toString() {
+
+		return `Joe ball is ${this.hardness} hard, ${this.bigness} big and ${this.heavyness} heavy. Go figure out the units yourself because I know you can't.`;
+	}
+};
+console.log(bowlingPin.valueOf());
+console.log(bowlingPin.toString());
+console.log((bowlingPin - 9) * 1157);
